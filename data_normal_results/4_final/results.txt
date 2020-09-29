@@ -1,0 +1,142 @@
+1) Model number 1 according to ACCURACY
+support vector machines:0.9140 ± 0.0220
+2) Model number 2 according to ACCURACY
+k-nearest neighbors:0.9003 ± 0.0239
+3) Model number 3 according to ACCURACY
+quadratic discriminant analysis:0.8992 ± 0.0256
+4) Model number 4 according to ACCURACY
+naive bayes:0.8910 ± 0.0299
+5) Model number 5 according to ACCURACY
+random forest:0.8890 ± 0.0275
+6) Model number 6 according to ACCURACY
+adaboost:0.8797 ± 0.0267
+7) Model number 7 according to ACCURACY
+linear discriminant analysis:0.8465 ± 0.0316
+8) Model number 8 according to ACCURACY
+logistic regression:0.8400 ± 0.0270
+
+
+1) Model number 1 according to AUC PR
+support vector machines:0.9012 ± 0.0236
+2) Model number 2 according to AUC PR
+k-nearest neighbors:0.8864 ± 0.0270
+3) Model number 3 according to AUC PR
+quadratic discriminant analysis:0.8850 ± 0.0291
+4) Model number 4 according to AUC PR
+naive bayes:0.8767 ± 0.0350
+5) Model number 5 according to AUC PR
+random forest:0.8741 ± 0.0292
+6) Model number 6 according to AUC PR
+adaboost:0.8654 ± 0.0328
+7) Model number 7 according to AUC PR
+linear discriminant analysis:0.8260 ± 0.0382
+8) Model number 8 according to AUC PR
+logistic regression:0.8206 ± 0.0304
+
+
+1) Model number 1 according to AUC ROC
+support vector machines:0.9187 ± 0.0226
+2) Model number 2 according to AUC ROC
+k-nearest neighbors:0.8936 ± 0.0272
+3) Model number 3 according to AUC ROC
+quadratic discriminant analysis:0.8920 ± 0.0301
+4) Model number 4 according to AUC ROC
+random forest:0.8847 ± 0.0268
+5) Model number 5 according to AUC ROC
+naive bayes:0.8758 ± 0.0360
+6) Model number 6 according to AUC ROC
+adaboost:0.8615 ± 0.0311
+7) Model number 7 according to AUC ROC
+logistic regression:0.8378 ± 0.0328
+8) Model number 8 according to AUC ROC
+linear discriminant analysis:0.8152 ± 0.0386
+
+
+1) Model number 1 according to F05
+support vector machines:0.8602 ± 0.0347
+2) Model number 2 according to F05
+k-nearest neighbors:0.8580 ± 0.0369
+3) Model number 3 according to F05
+naive bayes:0.8570 ± 0.0426
+4) Model number 4 according to F05
+quadratic discriminant analysis:0.8570 ± 0.0370
+5) Model number 5 according to F05
+random forest:0.8458 ± 0.0371
+6) Model number 6 according to F05
+adaboost:0.8457 ± 0.0451
+7) Model number 7 according to F05
+linear discriminant analysis:0.8086 ± 0.0461
+8) Model number 8 according to F05
+logistic regression:0.7644 ± 0.0344
+
+
+1) Model number 1 according to F1
+support vector machines:0.8862 ± 0.0282
+2) Model number 2 according to F1
+k-nearest neighbors:0.8616 ± 0.0338
+3) Model number 3 according to F1
+quadratic discriminant analysis:0.8597 ± 0.0372
+4) Model number 4 according to F1
+random forest:0.8474 ± 0.0356
+5) Model number 5 according to F1
+naive bayes:0.8428 ± 0.0465
+6) Model number 6 according to F1
+adaboost:0.8253 ± 0.0402
+7) Model number 7 according to F1
+logistic regression:0.7870 ± 0.0386
+8) Model number 8 according to F1
+linear discriminant analysis:0.7653 ± 0.0528
+
+
+1) Model number 1 according to HAMMING LOSS
+support vector machines:0.0860 ± 0.0220
+2) Model number 2 according to HAMMING LOSS
+k-nearest neighbors:0.0998 ± 0.0239
+3) Model number 3 according to HAMMING LOSS
+quadratic discriminant analysis:0.1007 ± 0.0256
+4) Model number 4 according to HAMMING LOSS
+random forest:0.1087 ± 0.0235
+5) Model number 5 according to HAMMING LOSS
+naive bayes:0.1090 ± 0.0299
+6) Model number 6 according to HAMMING LOSS
+adaboost:0.1203 ± 0.0267
+7) Model number 7 according to HAMMING LOSS
+linear discriminant analysis:0.1535 ± 0.0316
+8) Model number 8 according to HAMMING LOSS
+logistic regression:0.1600 ± 0.0270
+
+
+1) Model number 1 according to PRECISION
+naive bayes:0.8675 ± 0.0460
+2) Model number 2 according to PRECISION
+adaboost:0.8611 ± 0.0582
+3) Model number 3 according to PRECISION
+k-nearest neighbors:0.8562 ± 0.0444
+4) Model number 4 according to PRECISION
+quadratic discriminant analysis:0.8557 ± 0.0426
+5) Model number 5 according to PRECISION
+support vector machines:0.8440 ± 0.0415
+6) Model number 6 according to PRECISION
+linear discriminant analysis:0.8414 ± 0.0489
+7) Model number 7 according to PRECISION
+random forest:0.8395 ± 0.0491
+8) Model number 8 according to PRECISION
+logistic regression:0.7504 ± 0.0363
+
+
+1) Model number 1 according to RECALL
+support vector machines:0.9351 ± 0.0392
+2) Model number 2 according to RECALL
+k-nearest neighbors:0.8701 ± 0.0524
+3) Model number 3 according to RECALL
+quadratic discriminant analysis:0.8664 ± 0.0557
+4) Model number 4 according to RECALL
+random forest:0.8590 ± 0.0478
+5) Model number 5 according to RECALL
+logistic regression:0.8301 ± 0.0630
+6) Model number 6 according to RECALL
+naive bayes:0.8223 ± 0.0650
+7) Model number 7 according to RECALL
+adaboost:0.7973 ± 0.0645
+8) Model number 8 according to RECALL
+linear discriminant analysis:0.7050 ± 0.0709
