@@ -22,8 +22,9 @@ except:
     print("\nYou must specify a classifier method, using naive bayes as default one.\n")
     model_name = 'naive_bayes'
 
-# Importing the dataset
-dataset = pd.read_csv('./data/data.csv')
+####################################### Import data #######################################
+#dataset = pd.read_csv('./data/data.csv')
+dataset = pd.read_csv('./data/data_undersampled_manually.csv')
 X = dataset.iloc[:, [2, 3]].values
 y = dataset.iloc[:, 4].values
 

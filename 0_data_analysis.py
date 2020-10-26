@@ -6,8 +6,9 @@ import seaborn as sns
 from imblearn.over_sampling import SMOTE
 from imblearn.under_sampling import TomekLinks
 
-#import data
-dataset = pd.read_csv('./data/data.csv')
+####################################### Import data #######################################
+#dataset = pd.read_csv('./data/data.csv')
+dataset = pd.read_csv('./data/data_undersampled_manually.csv')
 X = dataset.iloc[:, [2, 3]].values
 y = dataset.iloc[:, 4].values
 

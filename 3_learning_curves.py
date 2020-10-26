@@ -23,10 +23,12 @@ from sklearn.model_selection import RepeatedStratifiedKFold
 from evaluate import *
 import operator
 
+####################################### Import data #######################################
+
 # Importing the dataset (manually undersampled outliers of class 0)
-#dataset = pd.read_csv('undersampled_0_manually_data.csv')
-#X = dataset.iloc[:, [2, 3]].values
-#y = dataset.iloc[:, 4].values
+dataset = pd.read_csv('./data/data_undersampled_manually.csv')
+X = dataset.iloc[:, [2, 3]].values
+y = dataset.iloc[:, 4].values
 
 # Importing the dataset (undersampled with tomek links)
 #dataset = pd.read_csv('Social_Network_Ads_UNDERSAMPLED_TL.csv')
@@ -39,9 +41,9 @@ import operator
 #y = dataset.iloc[:, 2].values
 
 # Importing the dataset (normal)
-dataset = pd.read_csv('./data/data.csv')
-X = dataset.iloc[:, [2, 3]].values
-y = dataset.iloc[:, 4].values
+#dataset = pd.read_csv('./data/data.csv')
+#X = dataset.iloc[:, [2, 3]].values
+#y = dataset.iloc[:, 4].values
 
 ################################################################################################################################
 print('DATA EXPLORATION')
