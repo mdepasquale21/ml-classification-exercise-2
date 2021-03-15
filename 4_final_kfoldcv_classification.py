@@ -113,6 +113,8 @@ results = {
 'hamming loss': {}
 }
 
+# evaluate all models with cross validation
+
 for name, model in sorted(models.items()):
     scores = []
     mean_score = 0.0
