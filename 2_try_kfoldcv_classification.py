@@ -91,6 +91,8 @@ precision_list = []
 recall_list = []
 hl_list = []
 
+# todo use RepeatedStratifiedKFold with GridSearchCV
+
 for train_index, test_index in rskf.split(X, y):
     X_train, X_test = X[train_index], X[test_index]
     y_train, y_test = y[train_index], y[test_index]
